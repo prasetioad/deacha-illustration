@@ -495,6 +495,9 @@
             align-items: center;
             margin: 0 auto;
         }
+        .logo{
+            font-size: 21px;
+        }
         .navmenu{
             display: none;
             justify-content: space-around;
