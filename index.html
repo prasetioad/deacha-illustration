@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deacha's</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>Deacha</p>
+        </div>
+        <div class="navbar">
+            <div class="nav-item" onclick="scrollPage('home')">
+                <p>Home</p>
+            </div>
+            <div class="nav-item" onclick="scrollPage('work')">
+                <p>Work</p>
+            </div>
+            <div class="nav-item" onclick="scrollPage('about')">
+                <p>About</p>
+            </div>
+            <div class="nav-item" onclick="scrollPage('collaborate')">
+                <p>Collaborate</p>
+            </div>
+            <div class="nav-item" onclick="openTab('https://www.instagram.com/deacha_n/')">
+                <p>Instagram</p>
+            </div>
+            <div class="nav-item" onclick="scrollPage('contact')">
+                <p>Contact</p>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <div class="main-left">
+            <div class="main-head-left">
+                <span>Hello & Welcome!</span>
+                <p>
+                    Hi! I'm Asya, a freelance illustrator and sometimes animator from Ciamis, The Indonesia.
+                    Deacha is my creative alias, which I use to design everything that comes to mind. <br> <br>
+                    I specialize in digital illustrations and simple animations with lots of colors and popping
+                    characters.
+                    Why do I need custom illustrations or animations, you might ask? Well, scroll down and let me
+                    convince you. 🙃
+                </p>
+            </div>
+            <div class="main-head-right">
+                <img src="./asset/107393948_3142143759210511_6109776435383560298_n.jpg" alt="image">
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-content-left">
+                <img src="./asset/107393948_3142143759210511_6109776435383560298_n.png" alt="">
+            </div>
+            <div class="main-content-right">
+                <span>Stand out</span>
+                <p>
+                    Illustrations act as a spotlight for your content, whether it's used for your website, a new book,
+                    or other purpose.<br> <br>
+                    Let me create a visual identity that is familiar to your audience.
+                    Give your brand or project some personality! Invest in illustrations that were thoughtfully and
+                    strategically
+                    illustrated for your project, instead of using generic stock art.
+                </p>
+            </div>
+        </div>
+        <div class="main-left">
+            <div class="main-head-left">
+                <span>Make it clear</span>
+                <p>
+                    People rely more and more on scanning and skimming than fully reading your content. Time is the new
+                    gold. 💛 <br> <br>
+                    That's why it's so important to add illustrations and animations to your project. With the right
+                    visual message,
+                    people instantly understand your purpose.
+                </p>
+            </div>
+            <div class="main-head-right">
+                <img src="./asset/124656979_645161602829798_5679654567396878162_n.png" alt="image">
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-content-left">
+                <img src="./asset/127960657_712495226316302_7214114981172616892_n.png" alt="image">
+            </div>
+            <div class="main-content-right">
+                <span>Work together</span>
+                <p>
+                    Together, we will come up with the best visual message for your mission.
+                    We work closely (screen distance 😉) to achieve the best possible outcome.
+                    Say what's on your mind, even if it's a brain fart! Honesty is the best policy.
+                </p>
+            </div>
+        </div>
+        <div class="main-left">
+            <div class="main-head-left">
+                <span>Keep learning</span>
+                <p>
+                    Personal growth and self-expression are very important to me.
+                    Every week I reserve time to experiment and try fun new illustration styles and animation
+                    techniques.
+                    Through passion projects, you get to see my imagination and heart on digital paper.
+                </p>
+            </div>
+            <div class="main-head-right">
+                <img src="./asset/124656979_645161602829798_5679654567396878162_n.png" alt="image">
+            </div>
+        </div>
+        <div class="main-right">
+            <div class="main-content-left">
+                <img src="./asset/127960657_712495226316302_7214114981172616892_n.png" alt="image">
+            </div>
+            <div class="main-content-right">
+                <span>Stay true</span>
+                <p>
+                    I believe that in a successful life, personal values and the way you do business should be
+                    connected.
+                    I try to keep my eyes on the big picture and care about creating a positive impact however I can.
+                    <br><br>
+                    Do you have a project that will change the future for the better? I offer discounted rates to lift
+                    your mission sky-high.
+                    Let’s create something meaningful!
+                </p>
+            </div>
+        </div>
+        <div class="main-left">
+            <div class="main-head-left">
+                <span>Let's dance</span>
+                <p>
+                    As Mr. Bowie would say: "Turn and face the strange changes."
+                    Magic happens when we talk, whether it's by phone (for the extraverts) or by email (for the
+                    introverts). <br> <br>
+                    English is not my native language so you can expect the occasional Yoda sentence when we have a
+                    call.
+                    I might even make a weird sound or two.
+                </p>
+                <div class="button">
+                    <button>GET IN TOUCH</button>
+                </div>
+            </div>
+            <div class="main-head-right">
+                <img src="./asset/124656979_645161602829798_5679654567396878162_n.png" alt="image">
+            </div>
+        </div>
+    </main>
+    <article id="work">
+        <div class="article-title">
+            <span>Work & fun</span>
+                <p>
+                    I share most of my work on Instagram and Dribbble, an online community for designers and creatives.
+                    Below, you can find a <br> selection of my most recent (passion) projects.
+                </p>
+        </div>
+        <div class="article-galery">
+            <div class="objek" onmouseover="showDesc('desc1')" onmouseout="hideDesc('desc1')" >
+                <div class="desc" id="desc1" onclick="openTab('https://www.instagram.com/p/CMUW9xFHM64/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="./asset/160015875_451570592751329_6589793865123141905_n.png" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc2')" onmouseout="hideDesc('desc2')">
+                <div class="desc" id="desc2" onclick="openTab('https://www.instagram.com/p/CCFsTg_nCIr/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-2.fna.fbcdn.net/v/t51.2885-15/e35/106481949_306715097382354_7275422971265039485_n.jpg?_nc_ht=instagram.fsoc1-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=eECatT-RxHgAX_XqIxP&edm=AABBvjUBAAAA&ccb=7-4&oh=95cefd601acf72d2a89fc3920020df08&oe=60F743B0&_nc_sid=83d603" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc3')" onmouseout="hideDesc('desc3')">
+                <div class="desc" id="desc3" onclick="openTab('https://www.instagram.com/p/CQ4d3nanw8p/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/210187614_877258822868852_4222577247088576618_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=OrghuYIt0iIAX9-yuLZ&edm=AP_V10EBAAAA&ccb=7-4&oh=71626ff19612b8a276f444b01aff923f&oe=60F745BA&_nc_sid=4f375e" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc4')" onmouseout="hideDesc('desc4')">
+                <div class="desc" id="desc4" onclick="openTab('https://www.instagram.com/p/CPCyxqUn6oK/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/187616758_310190520664831_3451278771159202136_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=3me-jpzDUvoAX8CaUml&edm=AABBvjUBAAAA&ccb=7-4&oh=88f2037c79d30c832b7d3ec8348f1954&oe=60F8AB7C&_nc_sid=83d603" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc5')" onmouseout="hideDesc('desc5')">
+                <div class="desc" id="desc5" onclick="openTab('https://www.instagram.com/p/COMkFzhH4Qx/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/177941315_521032975937779_2600481224641564565_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=hSV13chc0GYAX-UFVNW&edm=AABBvjUBAAAA&ccb=7-4&oh=5ddab37707662a037a46aa239a9da9ce&oe=60F7EFE3&_nc_sid=83d603" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc6')" onmouseout="hideDesc('desc6')">
+                <div class="desc" id="desc6" onclick="openTab('https://www.instagram.com/p/CL6X4thnHJz/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/155474682_177463727278963_131816934482397730_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=aizasqLPkrMAX92OMu7&edm=AP_V10EBAAAA&ccb=7-4&oh=7fb5a707b6463e4c9382def7cb47a2be&oe=60F7BF59&_nc_sid=4f375e" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc7')" onmouseout="hideDesc('desc7')">
+                <div class="desc" id="desc7" onclick="openTab('https://www.instagram.com/p/CRGAU27nSxI/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/212134374_1386302408438524_4120436534791410758_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=lb4hazYJNOsAX_Fz9FA&tn=g4fAHhWDliwKX6Sp&edm=AABBvjUBAAAA&ccb=7-4&oh=6e652c4a0bb38ac95f47b46b4c3411c6&oe=60F87633&_nc_sid=83d603" alt="image">
+                    </div>
+            </div>
+            <div class="objek"  onmouseover="showDesc('desc8')" onmouseout="hideDesc('desc8')">
+                <div class="desc" id="desc8" onclick="openTab('https://www.instagram.com/p/CJSvVTDH8Ye/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-2.fna.fbcdn.net/v/t51.2885-15/e35/133123839_239493857539338_8459105295844576697_n.jpg?_nc_ht=instagram.fsoc1-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=MLMt7TvnqLUAX_oNz8w&edm=AABBvjUBAAAA&ccb=7-4&oh=f0aa7a241fb7498fe0b1435de43696e5&oe=60F886EC&_nc_sid=83d603" alt="image">
+                    </div>
+            </div>
+            <div class="objek" onmouseover="showDesc('desc9')" onmouseout="hideDesc('desc9')">
+                <div class="desc" id="desc9" onclick="openTab('https://www.instagram.com/p/CKfvbPNH2Vv/')">
+                    <h2>
+                        See more ...
+                    </h2>
+                </div>
+                    <div class="galery-item-objek">
+                        <img src="https://instagram.fsoc1-2.fna.fbcdn.net/v/t51.2885-15/e35/142647594_440010414029673_7834094016564061746_n.jpg?_nc_ht=instagram.fsoc1-2.fna.fbcdn.net&_nc_cat=109&_nc_ohc=cAgNQcsVHvcAX-9ixnq&edm=AP_V10EBAAAA&ccb=7-4&oh=d4f06b061be3b25c06734c07328fb32b&oe=60F83F55&_nc_sid=4f375e" alt="image">
+                    </div>
+            </div>
+        </div>
+    </article>
+    <aside id="about">
+        <div class="content" >
+            <div class="content-left">
+                <span>About Deacha</span>
+                <p style="font-style: italic ;"> Deacha is Asya's creative alias, which she uses to design everything that comes to mind.</p> <br>
+                <p> Hi! I'm Asya, a freelance illustrator and sometimes animator from Ciamis, The Indonesia. 
+                    I create digital and colorful illustrations and animations that stand out. 
+                    I prefer to work on my iPad with the Procreate app combined with Adobe CC. 
+                    This way I create hand-drawn illustrations that I can animate in After Effects. <br> <br>
+                    In my spare time I like to work on passion projects (often with my code man). 
+                    I really enjoy listening to music and a few of my favorite artists are Siouxie and the Banshees, M
+                    ount Kimbie, Grizzly Bear, and Bear in Heaven. 🐼 <br><br>
+                    Every week i try to walk outside with my bestie for an hour, since a change of scenery can clear many blocks on the road.
+                </p>
+            </div>
+            <div class="content-right">
+                <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/89442765_134701031401111_7994371946149544519_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=U_EXS_BW45QAX_1s80L&edm=AP_V10EBAAAA&ccb=7-4&oh=040888e8707b29591efd1a5379bc9e1b&oe=60F9ED39&_nc_sid=4f375e" alt="image">
+            </div>
+        </div>
+    </aside>
+    <div class="collaborate" id="collaborate">
+        <div class="collaborate-wrapper">
+            <div class="collaborate-left">
+                <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/127960657_712495226316302_7214114981172616892_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=qR0Z_qqqA1gAX-hmu6R&edm=AP_V10EBAAAA&ccb=7-4&oh=ea63b824366a6b3712371f3aeb99c9e1&oe=60F9F359&_nc_sid=4f375e" alt="image">
+            </div>
+            <div class="collaborate-right">
+                <div class="collaborate-content">
+                    <div class="collaborate-title">
+                        <span>Let's work together</span>
+                    </div>
+                    <div class="collaborate-desc">
+                        <p>Every project has the best possible outcome when we collaborate. Let's come up with cool ideas together!</p>
+                    </div>
+                    <div class="button">
+                        <button>GET IN TOUCH</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact" >
+        <div class="contact-wrapper">
+            <div class="contact-title">
+                <span>Contact</span>    
+            </div>
+            <div class="contact-desc">
+                <p>If you'd like to work together on a new project or have any <br>  questions then please get in touch - I'd love to hear from you!</p>
+            </div>
+            <div class="contact-action">
+                <div class="button">
+                    <button>SEND AN E-MAIL</button>
+                </div>
+                <div class="button">
+                    <button>SEND AN E-MAIL</button>
+                </div>
+            </div>
+            <div class="contact-detil">
+                <span>Asya Majdiyyah</span>
+                <p>Kec. Panawangan, Kab. Ciamis</p>
+                <p>(no visiting address)</p>
+                <br>
+                <span>Email</span>
+                <p>deachanasya@gmail.com</p>
+                <br>
+                <span>Phone</span>
+                <p>+6289635960053</p>
+            </div>
+            <img src="https://lh3.googleusercontent.com/xHn46b_-VjTGu3n_fjOu00wQR6avXyZ__-Hkpkhp3f5DGhOEKJQWrw7pb7f0bld9Wd0qfjHj0d6x_-IPsnVRni7YuP4ABz1C6dUNTjsQT4YjyPkh_24e-thWpN41dO24Dk4q2tekGo1V-FipWu9t-j3Z4ckqHhBHQoE4cRYIMaOHrGMhK0fpL2SAG5mqo0Peigr68P8ulNu-EZKd43QY_m8mFsme8-F88VZZt9j_Sz2KtJ6VFGpShvYLOzHHHf7W4w898koeb43iaD1cTQIChTq9G_J59wvTWKKbODkBdRJ8eRnOqhbyyUSuhaU_NY95Mo1XJunLghi-g4mm44JVD43_nO71fmifkI1OuCNdJc7zyVfwLF-j5owlHWc4bV_jQUXj0ui4roYRqPEOR7PYK8JFvytqaSkz2MldP4-iQoMuYCiffRdo41TSnjYTY2czxz9zvDZsZJ7YrxqKlBhaxe7siaEEC6DirawffiqaN0628EpnN_YZrXhTaljTVRY8eQkriwv39N0LfQbwFBPHh1_8c0HmEZh3m-k3iyPgFXMBxRsCql1-vAgL_3Zzq3qHmatahqK9uLmmZsvmYwcR0RWAQeZFM1EUIczPRq7zhqHvSIcFNNiXNTOKgMEigYgom82dbcz2qliTYnLdHiz2e8S5uvRm03YsMi4AW0KoZAMlUCGRJu64ZAR7R4SCyNLGw-LjRbr9fFEQoOOZeg9t-Ep3=s706-no?authuser=0" alt="image">
+        </div>
+    </div>
+    <footer>
+        <div class="footer-left">
+            <span>© 2021 bymaswisnu </span>
+        </div>
+        <div class="footer-mid">
+            <div class="medsos">
+                <a href="https://www.instagram.com/deacha_n/">
+                    <img src="https://image.flaticon.com/icons/png/512/87/87390.png" alt="instagram">
+                </a>
+            </div>
+            <div class="medsos">
+                <a href="https://web.facebook.com/asya.majdiyyah">
+                    <img src="https://image.flaticon.com/icons/png/512/37/37564.png" alt="facebook">
+                </a>
+            </div>
+            <div class="medsos">
+                <a href="https://id.pinterest.com/deachanasya/_saved/">
+                    <img src="https://image.flaticon.com/icons/png/512/63/63774.png" alt="pinterest">
+                </a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="./term.html">
+                <span>Term & Condition</span>
+            </a>
+        </div>
+    </footer>
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
