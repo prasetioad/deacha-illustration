@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
+    <header class="headerOne">
+        <div class="logo" onclick="scrollPage('home')">
             <p>Deacha</p>
         </div>
         <div class="navbar">
@@ -35,6 +35,38 @@
             </div>
         </div>
     </header>
+    <header class="headerTwo">
+        <div class="header-wrapper">
+            <div class="logo" onclick="scrollPage('home')">
+                <p>Deacha</p>
+            </div>
+            <div class="burger" onclick="openBurger()">
+                <div class="burgerIcon" style="width: 30px;">
+                    <img src="https://cdn.iconscout.com/icon/free/png-512/burger-menu-3132626-2638855.png" alt="menu" width="100%">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="navmenu" id="burgerMenu">
+        <div class="nav-item" onclick="scrollPage('home'), openBurger()" >
+            <p>Home</p>
+        </div>
+        <div class="nav-item" onclick="scrollPage('work'), openBurger()" >
+            <p>Work</p>
+        </div>
+        <div class="nav-item" onclick="scrollPage('about'), openBurger()" >
+            <p>About</p>
+        </div>
+        <div class="nav-item" onclick="scrollPage('collaborate'), openBurger()">
+            <p>Collaborate</p>
+        </div>
+        <div class="nav-item" onclick="openTab('https://www.instagram.com/deacha_n/'), openBurger()">
+            <p>Instagram</p>
+        </div>
+        <div class="nav-item" onclick="scrollPage('contact'), openBurger()">
+            <p>Contact</p>
+        </div>
+    </div>
     <main id="home">
         <div class="main-left">
             <div class="main-head-left">
@@ -139,7 +171,7 @@
                     I might even make a weird sound or two.
                 </p>
                 <div class="button">
-                    <button>GET IN TOUCH</button>
+                    <button onclick="scrollPage('contact')">GET IN TOUCH</button>
                 </div>
             </div>
             <div class="main-head-right">
@@ -152,7 +184,7 @@
             <span>Work & fun</span>
                 <p>
                     I share most of my work on Instagram and Dribbble, an online community for designers and creatives.
-                    Below, you can find a <br> selection of my most recent (passion) projects.
+                    Below, you can find a selection of my most recent (passion) projects.
                 </p>
         </div>
         <div class="article-galery">
@@ -226,7 +258,7 @@
                         <img src="https://instagram.fsoc1-1.fna.fbcdn.net/v/t51.2885-15/e35/212134374_1386302408438524_4120436534791410758_n.jpg?_nc_ht=instagram.fsoc1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=lb4hazYJNOsAX_Fz9FA&tn=g4fAHhWDliwKX6Sp&edm=AABBvjUBAAAA&ccb=7-4&oh=6e652c4a0bb38ac95f47b46b4c3411c6&oe=60F87633&_nc_sid=83d603" alt="image">
                     </div>
             </div>
-            <div class="objek"  onmouseover="showDesc('desc8')" onmouseout="hideDesc('desc8')">
+            <div class="objek remove"  onmouseover="showDesc('desc8')" onmouseout="hideDesc('desc8')">
                 <div class="desc" id="desc8" onclick="openTab('https://www.instagram.com/p/CJSvVTDH8Ye/')">
                     <h2>
                         See more ...
@@ -282,7 +314,7 @@
                         <p>Every project has the best possible outcome when we collaborate. Let's come up with cool ideas together!</p>
                     </div>
                     <div class="button">
-                        <button>GET IN TOUCH</button>
+                        <button onclick="scrollPage('contact')">GET IN TOUCH</button>
                     </div>
                 </div>
 
@@ -295,14 +327,14 @@
                 <span>Contact</span>    
             </div>
             <div class="contact-desc">
-                <p>If you'd like to work together on a new project or have any <br>  questions then please get in touch - I'd love to hear from you!</p>
+                <p>If you'd like to work together on a new project or have any  questions then please get in touch - I'd love to hear from you!</p>
             </div>
             <div class="contact-action">
                 <div class="button">
                     <button>SEND AN E-MAIL</button>
                 </div>
                 <div class="button">
-                    <button>SEND AN E-MAIL</button>
+                    <button>CALL DEACHA</button>
                 </div>
             </div>
             <div class="contact-detil">

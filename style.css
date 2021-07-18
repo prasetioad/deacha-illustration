@@ -19,7 +19,7 @@
     align-items: center;
     position: fixed;
     z-index: 1;
-    width: 95%;
+    width: 100%;
   }
 
   .logo{
@@ -141,6 +141,7 @@
         font-size: 21px;
         margin-top: 30px;
         color: hsl(10, 80%, 15%);
+        line-height: 40px;
     }
     .objek{
         padding: 10px;
@@ -329,3 +330,191 @@
         font-weight: 700;
         font-family: 'Open Sans';
     }
+    .headerTwo{
+        display: none;
+    }
+    .navmenu{
+        display: none;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        main{
+            padding-bottom: 75px;
+        }
+        .main-left {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 50px;
+            flex-direction: column;
+        }
+        .main-head-left {
+            width: 90%;
+            padding-top: 30px;
+            margin: auto;
+        }
+        .main-head-right {
+            width: 90%;
+            text-align: right;
+            margin: 50px auto;
+        }
+        .main-right {
+            display: flex;
+            justify-content: space-between;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+            flex-direction: column-reverse;
+        }
+        .main-content-left {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .main-content-right {
+            width: 90%;
+            margin: 30px auto;
+        }
+        .main-content-right p{
+            width: 100%;
+        }
+        article{
+            padding: 40px 10px;
+        }
+        .article-title {
+            text-align: left;
+            padding: 10px;
+        }
+        .article-title p {
+            width: auto;
+        }
+        .article-galery{
+            justify-content: space-between;
+        }
+        .objek{
+            width: 235px;
+            height: 235px;
+        }
+        .remove {
+            display: none !important;
+        }
+        .content{
+            width: 90%;
+            flex-direction: column;
+        }
+        .content-left{
+            width: 100%;
+        }
+        .content-right{
+            width: 100%;
+            padding: 50px auto !important;
+        }
+        .collaborate-wrapper{
+            flex-direction: column-reverse;
+            width: 90%;
+            margin:30px auto;
+        }
+        .collaborate-left{
+            width: 100%;
+            margin: 50px auto;
+        }
+        .collaborate-right{
+            width: 100%;
+
+        }
+        .contact-wrapper{
+            width: 90%;
+        }
+        .contact-action{
+            width: auto;
+            flex-direction: column;
+            margin: 30px 0 ;
+        }
+        .contact-action .button{
+            margin: 10px 0;
+        }
+        .contact-wrapper{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width:90%;
+        }
+        .contact-title{
+            text-align: left;
+            width: 100%;
+        }
+        .contact-desc{
+            text-align: left;
+            margin: 10px 0;
+        }
+        .contact-detil{
+            text-align: left;
+        }
+        .contact-wrapper img{
+            width: 100%;
+            margin: 20px auto;
+        }
+        footer{
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 50px 0;
+        }
+        .footer-mid{
+            margin: 40px auto;
+        }
+        span{
+            font-size: 31px;
+        }
+
+        /* Navbar */
+        header {
+            /* width: 100vw; */
+            display: flex;
+            justify-content: space-between;
+            padding:10px 0;
+            width: 100%;
+        }
+        .headerOne{
+            display: none;
+        }
+        .headerTwo{
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-wrapper{
+            display: flex;
+            justify-content: space-between;
+            width: 95%;
+            align-items: center;
+            margin: 0 auto;
+        }
+        .navmenu{
+            display: none;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            z-index: 1;
+            position: fixed;
+            margin-top: 75px;
+            width: 100%;
+            background-color: rgba(34, 15, 2, 0.892) ;
+            height: 75%;
+        }
+        .nav-item{
+            text-align: center;
+            font-weight: 500 ;
+            border-bottom: 1px solid white;
+            font-size: 18px ;
+            width: 100%;
+        }
+        .nav-item p{
+            color: white !important;
+        }
+
+      }
+      @media only screen and (max-width:530px) {
+        .objek{
+            width: 100%;
+            height: auto;
+        }
+      }

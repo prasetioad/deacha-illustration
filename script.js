@@ -17,3 +17,15 @@ function scrollPage (id) {
         behavior: 'smooth'
       });;
 }
+
+let burger = false
+function openBurger(){
+    let target = document.getElementById('burgerMenu')
+    if(burger === false){
+        target.style.display='flex'
+        burger = true
+    }else{
+        target.style.display ='none'
+        burger = false
+    }
+}
