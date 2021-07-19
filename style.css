@@ -470,8 +470,18 @@
             text-align: left;
             margin: 10px 0;
         }
+        .contact-desc p{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 30px;
+        }
         .contact-detil{
             text-align: left;
+        }
+        .contact-detil p{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 30px;
         }
         .contact-wrapper img{
             width: 100%;
